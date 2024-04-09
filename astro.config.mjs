@@ -14,9 +14,10 @@ export default defineConfig({
         },
         "pt-br": {
           label: "Português",
-          lang: "pt-br",
+          lang: "pt-BR",
         },
       },
+      customCss: ["./src/styles/main.scss"],
 
       social: {
         github: "https://github.com/withastro/starlight",
