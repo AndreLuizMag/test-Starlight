@@ -46,6 +46,14 @@ export default defineConfig({
           },
           autogenerate: { directory: "reference" },
         },
+        {
+          label: "Components",
+          translations: {
+            "pt-BR": "Componentes",
+          },
+          badge: "Deprecated",
+          autogenerate: { directory: "components" },
+        },
       ],
     }),
   ],
